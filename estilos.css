@@ -20,11 +20,14 @@ body {
     background-color: var(--Lightgray);
     font-family: var(--outfit);
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .card {
     max-width: 350px;
-    margin: 100px auto;
     background-color: var(--White);
     padding: 20px;
     border-radius: 20px;
